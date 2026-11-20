@@ -1,0 +1,23 @@
+{
+  "name": "Fabio Nicolosi",
+  "role": "Studente di informatica",
+  "location": "Genova, Italia",
+  "description": "Motivato, preciso e orientato agli obiettivi, con una forte propensione al problem solving. Sviluppo applicazioni e gestisco infrastrutture di rete e server. Il mio obiettivo è diventare Project Manager, unendo competenze tecniche, organizzazione e leadership.",
+  "email": "fabio.nicolosi.05@gmail.com",
+  "phone": "",
+  "github": "https://github.com/fibi0905",
+  "linkedin": "https://www.linkedin.com/in/fabio-nicolosi-ge/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Ionic Framework",
+    "C/C++",
+    "Java",
+    "Python",
+    "Git",
+    "Docker",
+    "Sistemista: server LAMP, DNS, Nginx, HTTPS"
+  ]
+}

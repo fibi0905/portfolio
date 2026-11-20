@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Home Network Infrastructure",
+    "featured": true,
+    "description": "Infrastruttura di rete domestica su più nodi. Un Raspberry Pi 4B gestisce DNS e DHCP con Pi-hole, VPN con PiVPN/WireGuard e reverse proxy Nginx con certificati SSL; un server Proxmox VE ospita Nextcloud e applicazioni web sviluppate in proprio, tra cui il controllo remoto dei PC e il monitoraggio del Raspberry Pi.",
+    "technologies": ["Raspberry Pi", "Proxmox VE", "Pi-hole", "WireGuard", "Nginx", "Docker", "Nextcloud"],
+    "languages": ["Python"],
+    "repo": "https://github.com/fibi0905/Home-Network-Infrastructure",
+    "image": ""
+  },
+  {
+    "name": "Wake On LAN Remote Manager",
+    "description": "Sistema client-server per accendere e spegnere da remoto i PC della rete locale, senza software di desktop remoto. Un'app mobile Ionic React comunica con un backend REST in Node.js protetto da autenticazione; l'accensione usa il Magic Packet Wake-on-LAN (UDP), lo spegnimento un server Java installato sui PC (TCP).",
+    "technologies": ["Ionic React", "Node.js", "REST API", "Wake-on-LAN", "TCP/UDP"],
+    "languages": ["TypeScript", "Java"],
+    "repo": "https://github.com/fibi0905/WakeOnLan",
+    "image": ""
+  },
+  {
+    "name": "IPortbook (SETI 2025/2026)",
+    "description": "Sistema client-server per la gestione di una rubrica di rete, sviluppato per il corso universitario SETI seguendo le specifiche tecniche del docente. La comunicazione usa socket TCP e UDP. Ho progettato e sviluppato il server in coppia con un collega, che ha realizzato il client.",
+    "technologies": ["Socket BSD", "TCP", "UDP", "Architettura client-server"],
+    "languages": ["C"],
+    "repo": "https://github.com/fibi0905/progetto_Seti_2526",
+    "image": ""
+  },
+  {
+    "name": "App Meteo",
+    "description": "Web app per consultare le previsioni meteo orarie di temperatura e precipitazioni, per oggi o per domani. La località si ottiene con la geolocalizzazione o con la ricerca manuale; i dati arrivano da Open-Meteo e Geocode Maps.",
+    "technologies": ["Ionic React", "Capacitor", "Open-Meteo API", "Geocode Maps API"],
+    "languages": ["TypeScript"],
+    "repo": "https://github.com/fibi0905/App_Meteo",
+    "image": ""
+  },
+  {
+    "name": "Analisi e Progettazione di Algoritmi",
+    "description": "Raccolta degli elaborati del corso di Analisi e Progettazione di Algoritmi dell'Università di Genova: algoritmi Las Vegas e Monte Carlo, accordo bizantino, algoritmo di Prim, LCS, test di primalità e fingerprinting. Le relazioni sono scritte in LaTeX, con codice Python per verificare gli algoritmi.",
+    "technologies": ["LaTeX", "Overleaf"],
+    "languages": ["Python", "LaTeX"],
+    "repo": "https://github.com/fibi0905/Analisi-e-Progettazione-di-Algoritmi",
+    "image": ""
+  }
+]

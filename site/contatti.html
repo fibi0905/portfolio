@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contatti | Fabio Nicolosi</title>
+<meta name="description" content="Contatta Fabio Nicolosi via email, GitHub, LinkedIn o con il form del sito.">
+<meta name="theme-color" content="#f5f6f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101316" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contatti | Fabio Nicolosi">
+<meta property="og:description" content="Contatta Fabio Nicolosi via email, GitHub, LinkedIn o con il form del sito.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/content/site.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/app.js" defer></script>
+</head>
+<body data-page="contact">
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/" data-text="name">Fabio Nicolosi</a>
+    <nav class="site-nav" aria-label="Principale">
+      <a href="/">Home</a>
+      <a href="/progetti">Progetti</a>
+      <a href="/contatti" aria-current="page">Contatti</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap page">
+    <h1>Contatti</h1>
+    <p class="page-lead">Scrivimi per opportunità, collaborazioni o domande sui miei progetti.</p>
+
+    <div class="page-body contact-grid">
+      <section aria-labelledby="where-title">
+        <h2 id="where-title" class="h-small">Dove trovarmi</h2>
+        <ul class="contact-list">
+          <li><span class="k">Email</span><a data-mail data-show></a></li>
+          <li><span class="k">GitHub</span><a data-href="github" data-show target="_blank" rel="noopener noreferrer"></a></li>
+          <li><span class="k">LinkedIn</span><a data-href="linkedin" data-show target="_blank" rel="noopener noreferrer"></a></li>
+          <li hidden data-optional="phone"><span class="k">Telefono</span><a data-phone></a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="form-title">
+        <h2 id="form-title" class="h-small">Invia un messaggio</h2>
+        <form id="contact-form" class="form" method="post" action="/api/contact">
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Nome</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100">
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="254">
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-subject">Oggetto</label>
+            <input id="f-subject" name="subject" type="text" required maxlength="150">
+          </div>
+          <div class="field">
+            <label for="f-message">Messaggio</label>
+            <textarea id="f-message" name="message" rows="7" required minlength="10" maxlength="5000"></textarea>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label>Sito web <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Invia messaggio</button>
+          </div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <noscript><p class="form-status">Per inviare il messaggio serve JavaScript: usa l'indirizzo email indicato qui accanto.</p></noscript>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>&copy; <span data-year></span> <span data-text="name">Fabio Nicolosi</span></p>
+    <nav aria-label="Link esterni">
+      <a data-href="github" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a data-href="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a data-mail>Email</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
