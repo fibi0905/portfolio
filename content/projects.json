@@ -6,7 +6,7 @@
     "technologies": ["Raspberry Pi", "Proxmox VE", "Pi-hole", "WireGuard", "Nginx", "Docker", "Nextcloud"],
     "languages": ["Python"],
     "repo": "https://github.com/fibi0905/Home-Network-Infrastructure",
-    "image": ""
+    "image": "/content/assets/projects/Home-Network-Infrastructure.png"
   },
   {
     "name": "Wake On LAN Remote Manager",
@@ -14,7 +14,7 @@
     "technologies": ["Ionic React", "Node.js", "REST API", "Wake-on-LAN", "TCP/UDP"],
     "languages": ["TypeScript", "Java"],
     "repo": "https://github.com/fibi0905/WakeOnLan",
-    "image": ""
+    "image": "/content/assets/projects/WOL.png"
   },
   {
     "name": "IPortbook (SETI 2025/2026)",
@@ -38,6 +38,6 @@
     "technologies": ["LaTeX", "Overleaf"],
     "languages": ["Python", "LaTeX"],
     "repo": "https://github.com/fibi0905/Analisi-e-Progettazione-di-Algoritmi",
-    "image": ""
+    "image": "/content/assets/projects/APA.jpg"
   }
 ]
