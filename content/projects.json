@@ -1,7 +1,6 @@
 [
   {
     "name": "Home Network Infrastructure",
-    "featured": true,
     "description": "Infrastruttura di rete domestica su più nodi. Un Raspberry Pi 4B gestisce DNS e DHCP con Pi-hole, VPN con PiVPN/WireGuard e reverse proxy Nginx con certificati SSL; un server Proxmox VE ospita Nextcloud e applicazioni web sviluppate in proprio, tra cui il controllo remoto dei PC e il monitoraggio del Raspberry Pi.",
     "technologies": ["Raspberry Pi", "Proxmox VE", "Pi-hole", "WireGuard", "Nginx", "Docker", "Nextcloud"],
     "languages": ["Python"],
@@ -39,5 +38,14 @@
     "languages": ["Python", "LaTeX"],
     "repo": "https://github.com/fibi0905/Analisi-e-Progettazione-di-Algoritmi",
     "image": "/content/assets/projects/APA.jpg"
+  }, 
+  {
+    "name": "EasyBank Design",
+    "featured": true,
+    "description": "Repository dedicato all'analisi e alla progettazione del progetto EasyBank, sviluppato seguendo le metodologie della Software Engineering. Include Use Case Diagram, Use Case Specifications e System Sequence Diagrams (SSD), documentando l'intero processo di analisi dei requisiti e progettazione del software attraverso UML e documentazione tecnica professionale.",
+    "technologies": ["Software Engineering", "UML", "draw.io", "Visual Paradigm", "Markdown"],
+    "languages": ["Markdown", "Visual Paradigm", "draw.io"],
+    "repo": "https://github.com/fibi0905/EasyBank-Design",
+    "image": "/content/assets/projects/easybank-software-engineering.png"
   }
 ]

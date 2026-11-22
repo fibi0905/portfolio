@@ -11,13 +11,24 @@
     "HTML",
     "CSS",
     "JavaScript",
+    "TypeScript",
     "React",
     "Ionic Framework",
     "C/C++",
     "Java",
     "Python",
-    "Git",
+    "SQL (MariaDB)",
+    "Git / GitHub",
     "Docker",
-    "Sistemista: server LAMP, DNS, Nginx, HTTPS"
+    "Linux",
+    "Cisco Networking",
+    "Sistemista: server LAMP, DNS, Nginx, HTTPS",
+    "Visual Studio Code",
+    "Eclipse IDE",
+    "Markdown",
+    "UML Modeling (draw.io, Visual Paradigm)",
+    "LaTeX / Overleaf",
+    "Software Engineering & Requirement Analysis",
+    "License Management"
   ]
 }
